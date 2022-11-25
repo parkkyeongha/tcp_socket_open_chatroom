@@ -1,0 +1,30 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client",
+            "request": "launch",
+            "mainClass": "Client",
+            "projectName": "Assignment2_2018008304_박경하_d5f6f2d9",
+            "args": ["localhost", "2020", "2021"]
+        },
+        {
+            "type": "java",
+            "name": "Launch Server",
+            "request": "launch",
+            "mainClass": "Server",
+            "projectName": "Assignment2_2018008304_박경하_d5f6f2d9",
+            "args": ["2020", "2021"]
+        }
+    ]
+}
