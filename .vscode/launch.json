@@ -15,7 +15,7 @@
             "name": "Launch Client",
             "request": "launch",
             "mainClass": "Client",
-            "projectName": "Assignment2_2018008304_박경하_d5f6f2d9",
+            "projectName": "tcp_socket_open_chatroom_d5f6f2d9",
             "args": ["localhost", "2020", "2021"]
         },
         {
@@ -23,7 +23,7 @@
             "name": "Launch Server",
             "request": "launch",
             "mainClass": "Server",
-            "projectName": "Assignment2_2018008304_박경하_d5f6f2d9",
+            "projectName": "tcp_socket_open_chatroom_d5f6f2d9",
             "args": ["2020", "2021"]
         }
     ]
