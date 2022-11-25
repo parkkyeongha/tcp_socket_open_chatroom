@@ -3,12 +3,18 @@
 
 ## 1. 실행방법
 
-### 1.1. Client 프로그램 실행인자
-#### ServerIpAddress port1 port2
+### 1.1. .JAVA 컴파일
+#### cmd 창에서 'javac Client.java' 명령어를 통해 컴파일 한다.
 
+### 1.2. Client 프로그램 실행
+#### java Client (ServerIpAddress) (port1) (port2)
 
-### 1.2. Server 프로그램 실행인자
-#### port1 port2
+##### - ServerIpAddress: 서버의 IP
+##### - port1: 서버와 채팅 메시지를 주고 받는 용도로 사용되며, #로 시작하는 명령어 전송에 사용
+##### - port2: 파일 송수신을 위해 사용
+
+### 1.3. Server 프로그램 실행
+#### java Server (port1) (port2)
 
 ##### - port1: 서버와 채팅 메시지를 주고 받는 용도로 사용되며, #로 시작하는 명령어 전송에 사용
 ##### - port2: 파일 송수신을 위해 사용
